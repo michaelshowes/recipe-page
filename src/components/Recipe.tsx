@@ -4,7 +4,7 @@ import { ListItem, OList, UList } from './ui/Lists';
 
 export default function Recipe({ data }: { data: RecipeProps }) {
 	return (
-		<div
+		<article
 			className={
 				'bg-white flex flex-col md:p-500 md:gap-500 md:rounded-300 max-w-[736px]'
 			}
@@ -87,6 +87,6 @@ export default function Recipe({ data }: { data: RecipeProps }) {
 					</ul>
 				</div>
 			</div>
-		</div>
+		</article>
 	);
 }
