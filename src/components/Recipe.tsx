@@ -27,7 +27,7 @@ export default function Recipe({ data }: { data: RecipeProps }) {
 
 				{/* Prepartation Time */}
 				<div className={'bg-rose-50 p-300 flex flex-col gap-200 rounded-150'}>
-					<h2 className={'text-lg text-rose-800'}>Preparation Time</h2>
+					<h2 className={'text-lg text-rose-800'}>Preparation time</h2>
 					<UList>
 						{data.prepTime.types.map(({ name, value }) => (
 							<ListItem key={name}>

@@ -46,7 +46,7 @@ export const recipeData: RecipeProps = {
 		'2-3 large eggs',
 		'Salt, to taste',
 		'Pepper, to taste',
-		'1 tbsp butter or oil',
+		'1 tablespoon of butter or oil',
 		'Optional fillings: cheese, diced vegetables, cooked meats, herbs'
 	],
 	instructions: {
