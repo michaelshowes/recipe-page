@@ -77,9 +77,9 @@ export default function Recipe({ data }: { data: RecipeProps }) {
 								key={name}
 								className={'group'}
 							>
-								<div className={'px-400'}>
-									<span className={'font-bold'}>{name}</span>
-									{`: ${value}`}
+								<div className={'px-400 grid grid-cols-2 gap-200'}>
+									<div>{name}</div>
+									<div className={'font-bold text-brown-800'}>{value}</div>
 								</div>
 								<Divider className={'group-last:hidden my-150'} />
 							</li>
