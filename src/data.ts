@@ -38,8 +38,8 @@ export const recipeData: RecipeProps = {
 	prepTime: {
 		types: [
 			{ name: 'Total', value: 'Approximately 10 minutes' },
-			{ name: 'Prep', value: '5 minutes' },
-			{ name: 'Cook', value: '5 minutes' }
+			{ name: 'Preparation', value: '5 minutes' },
+			{ name: 'Cooking', value: '5 minutes' }
 		]
 	},
 	ingredients: [
